@@ -1,3 +1,105 @@
-.body{
-   color : #5ECBEA; 
+@font-face {
+   font-family: "la_golosineria";
+   src: url(../assert/font/HelveticaRoundedLTStdBdO.otf);
+}
+
+@media (max-width: 414px){
+   .section-contactate{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .form-size{
+       margin: 25px;
+   }
+
+   .gps-size{
+       margin: 25px;
+   }
+
+}
+
+@media (min-width: 414px) {
+   .carousel-css{
+     height:250px;
+   }
+}
+ 
+@media (min-width: 768px) {
+   .carousel-css{
+     height: 350px;
+   }
+}
+ 
+@media (min-width: 992px) {
+   .carousel-css{
+     height: 350px;
+   }
+}
+
+
+body{
+   color : #EB1291;
+   background-color: #5ECBEA; 
+   font-family: "la_golosineria";
+   
+}
+
+.Logo{
+   height: 250px;
+}
+
+.proveedores{   
+      color : #EB1291;
+      background-color: #5ECBEA;    
+}
+
+.card-title{
+   color : #EB1291;
+}
+
+.text-center{
+   color : #EB1291;
+}
+
+.altura-titulo{
+   height: 300px;
+}
+
+.accordion-body{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.card-img-top{
+   display: flex;
+   height: 300px;
+   width: 280px;
+   display: flex;
+   align-items: center;
+}
+
+p{
+   background-color: #5ECBEA;
+}
+
+.form-size{
+   width: 25vh;   
+}
+   
+.gps-size{
+       width: 25vh;
+}  
+   
+
+
+#navbar{
+   background-color: #5ECBEA; 
+}
+
+#bienvenidos{
+   background-color: #5ECBEA; 
 }
