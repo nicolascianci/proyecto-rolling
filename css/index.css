@@ -92,12 +92,67 @@ p{
    
 .gps-size{
        width: 25vh;
-}  
-   
+} 
+
+.section-contactate{
+ 
+   background-color: #6E1078;
+   color: #F5E616;
+}
+
+
+.form-size{
+   width: 300px;
+}
+
+.gps-size{
+   width: 300px;
+}
+
+.bottom-padding{
+   padding-top: 10px;
+}
+
+/* footer{
+   background-color: #5ECBEA;
+} */
+
+.logo-insta{
+   width: 40px;
+   height: 40px;
+   margin: 2px;
+}
+
+.logo-face{
+   width: 40px;
+   height: 40px;
+   margin: 2px;
+}
+
+.separador{
+   height: 20px;
+   padding: 5px;
+}
+.separador-amarrillo{
+   background-color:  #F5E616;
+}
+
+.separador-rosa{
+   background-color: #EB1291;
+}
+
+.separador-morado{
+   background-color: #6E1078
+}
+
+.nav-link{
+   color: #F5E616;
+}
 
 
 #navbar{
-   background-color: #5ECBEA; 
+   background-color: #6E1078; 
+  
 }
 
 #bienvenidos{
